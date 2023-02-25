@@ -1,0 +1,97 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+:root{
+    --orange:#ff7800;
+    --black: black;
+    box-shadow: #666;
+    
+}
+section{
+    display: flex;
+    margin-top: 6rem;
+    
+
+    
+}
+
+
+*{
+    font-family: 'Tilt Neon', cursive;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 1.5rem;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+
+.header{
+    position: fixed;
+    background: slategray;
+    top: 0; left: 0;right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 2rem 9%;
+    box-shadow:0 .5rem 1rem rgba(0, 0,0, .1);
+}
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+
+.header .navbar a{
+    font-size: 1.5rem;
+    margin:0 1rem;
+    color:black;
+}
+
+.description{
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    
+    
+    
+}
+
+h1{
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-family: 'Calibri';
+    font-style: italic;
+    color:white;
+    display: flex;
+
+
+}
+.content{
+    font-size: 2rem;
+    color:whitesmoke;
+    font-weight: bold;
+}
+.content p{
+    font-size: 1rem;
+    margin-left: 1rem;
+    position: center;
+    display: flex;
+    font-style: italic;
+    font-family: Arial;
+    color:whitesmoke;
+}
